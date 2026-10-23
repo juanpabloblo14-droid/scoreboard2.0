@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f8;
+    text-align: center;
+    padding: 40px 16px;
+}
+
+input {
+    font-size: 18px;
+    padding: 6px 10px;
+    width: 80px;
+    text-align: center;
+}
+
+#scoreA,
+#scoreB {
+    font-size: 64px;
+    font-weight: bold;
+    display: block;
+    margin: 16px 0;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #4a6cf7;
+    color: white;
+}
+
+button:hover {
+    background: #3550c9;
+}
+
+#resetBtn {
+    background: #888;
+    margin-top: 24px;
+}
+
+#statusText {
+    font-size: 24px;
+    color: #2a9d4a;
+    margin-top: 20px;
+}
